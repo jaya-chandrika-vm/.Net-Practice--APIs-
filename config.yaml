@@ -1,0 +1,25 @@
+﻿receivers:
+  otlp:
+    protocols:
+      http:
+        endpoint: localhost:4318
+
+processors:
+  batch:
+
+exporters:
+  datadog:
+    api:
+      site: us5.datadoghq.com
+      key: ddapp_QqMsFLRr7Zk1Ryel0VHJ8Rg5BT3X1jXBwE
+
+service:
+  pipelines:
+    traces:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [datadog]
+    logs:
+      receivers: [otlp]
+      processors: [batch]
+      exporters: [datadog]
