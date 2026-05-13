@@ -22,7 +22,7 @@
         "OTEL_RESOURCE_ATTRIBUTES": "deployment.environment=development",
 
         "OTEL_EXPORTER_OTLP_ENDPOINT": "https://otlp.us5.datadoghq.com",
-        "OTEL_EXPORTER_OTLP_HEADERS": "api-key=82584e35957eb0be26dbf594cc53d1df",
+        "OTEL_EXPORTER_OTLP_HEADERS": "api-key=b4d3f65959ea28bba2595f973b0ca880",
         "OTEL_EXPORTER_OTLP_PROTOCOL": "http/protobuf"
       }
     },
@@ -40,7 +40,7 @@
         "DD_ENV": "development",
         "OTEL_TRACES_SAMPLER": "always_on",
         "OTEL_EXPORTER_OTLP_ENDPOINT": "https://otlp.us5.datadoghq.com",
-        "OTEL_EXPORTER_OTLP_HEADERS": "api-key=82584e35957eb0be26dbf594cc53d1df",
+        "OTEL_EXPORTER_OTLP_HEADERS": "api-key=b4d3f65959ea28bba2595f973b0ca880",
         "OTEL_EXPORTER_OTLP_PROTOCOL": "http/protobuf"
       }
     },
